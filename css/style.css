@@ -1,0 +1,173 @@
+#main {
+	background-color: #c8cce8;
+	border-radius: 10px;
+	font-family: 'Roboto', sans-serif;
+	justify-content: center;
+}
+
+#title {
+	text-align: center;
+}
+
+h1 {
+	font-size: 44px;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+
+#img-div {
+	max-width: 98%;
+	background-color: white;
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#image {
+	max-width: 80%;
+  	height: auto;
+  	display: block;
+  	margin: auto;
+}
+
+#img-caption {
+	text-align: center;
+	display: block;
+	margin: 20px;
+}
+
+#tribute-info {
+	padding-top: 20px;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+ul {
+	text-align: left;
+	display: block;
+	margin: auto;
+	line-height: 1.6;
+}
+
+li {
+	margin: 20px;
+}
+
+.quote {
+	text-align: justify;
+	font-display: block;
+  	margin: 0 20px 50px 20px;
+  	padding-top: 30px;
+  	line-height: 1.6;
+}
+
+.more_info {
+	font-size: 20px;
+	padding: 20px 0px 40px 0px;
+	text-align: center;
+	font-display: block;
+	margin: auto;
+}
+
+@media (min-width: 480px) {
+	ul {
+		max-width: 70%;
+	}
+
+	.quote{
+		max-width: 70%;
+		padding: 10px;
+		display: block;
+		margin: auto;
+	}
+	
+	.more_info {
+		padding: 0px 20px 20px 20px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	#image {
+		max-width: 95%;
+	  	height: auto;
+	  	display: block;
+	  	margin: auto;
+	}
+	
+	ul {
+		max-width: 60%;
+		display: block;
+		margin: auto;
+		padding: 30px;
+	}
+
+	.quote{
+		max-width: 55%;
+		padding: 20px;
+		display: block;
+		margin: auto;
+	}
+	
+	.more_info {
+		padding: 0px 30px 20px 30px;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	#image {
+		max-width: 95%;
+	  	height: auto;
+	  	display: block;
+	  	margin: auto;
+	}
+	
+	ul {
+		max-width: 55%;
+		display: block;
+		margin: auto;
+	}
+
+	.quote{
+		max-width: 50%;
+		padding: 20px;
+		display: block;
+		margin: auto;
+	}
+	
+	.more_info {
+		padding: 0px 30px 20px 30px;
+	}
+}
+
+@media (min-width: 1280px) {
+	#image {
+		max-width: 98%;
+	  	height: auto;
+	  	display: block;
+	  	margin: auto;
+	}
+	
+	ul {
+		max-width: 50%;
+		display: block;
+		margin: auto;
+	}
+
+	.quote{
+		max-width: 45%;
+		padding: 20px;
+		display: block;
+		margin: auto;
+	}
+	
+	.more_info {
+		padding: 0px 30px 20px 30px;
+	}
+}
